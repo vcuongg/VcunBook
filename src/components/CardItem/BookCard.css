@@ -1,0 +1,17 @@
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block; /* ensure truncation works */
+  width: 100%;
+}
+
+/* Optional: slightly smaller font so long titles fit better */
+
+/* If you want to clamp to one line with ellipsis but allow wrapping on very small screens,
+   you can override with a media query */
+@media (max-width: 420px) {
+  .card-title {
+    white-space: nowrap;
+  }
+}

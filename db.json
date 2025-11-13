@@ -1,0 +1,595 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Romance"
+    },
+    {
+      "id": "2",
+      "name": "SciFi"
+    },
+    {
+      "id": "3",
+      "name": "Mystery"
+    },
+    {
+      "id": "4",
+      "name": "Education"
+    },
+    {
+      "id": "5",
+      "name": "Children"
+    },
+    {
+      "id": "6",
+      "name": "Business"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "cuong123",
+      "password": "123456",
+      "email": "cuong@gmail.com",
+      "role": "customer"
+    }
+  ],
+  "carts": [
+    {
+      "id": "1eee",
+      "userId": "2",
+      "items": [
+        {
+          "bookId": "1",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "53c9",
+      "userId": "1",
+      "items": [
+        {
+          "bookId": "2",
+          "quantity": 1
+        },
+        {
+          "bookId": "1",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "f38e",
+      "userId": "2",
+      "orderDate": "2025-11-10",
+      "status": "Shipped",
+      "shippingFee": 5,
+      "addressId": "026b",
+      "items": [
+        {
+          "bookId": "4",
+          "quantity": 2
+        },
+        {
+          "bookId": "3",
+          "quantity": 1
+        },
+        {
+          "bookId": "6",
+          "quantity": 1
+        },
+        {
+          "bookId": "5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2a61",
+      "orderId": "17628022422470euf1",
+      "userId": "2",
+      "orderDate": "2025-11-10",
+      "status": "Delivered",
+      "shippingFee": 5,
+      "addressId": "026b",
+      "items": [
+        {
+          "bookId": "2",
+          "quantity": 1
+        },
+        {
+          "bookId": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "fc22",
+      "userId": "2",
+      "orderDate": "2025-11-11",
+      "status": "Cancelled",
+      "shippingFee": 5,
+      "addressId": "026b",
+      "items": [
+        {
+          "bookId": "2",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "fb32",
+      "userId": "2",
+      "orderDate": "2025-11-11",
+      "status": "Shipped",
+      "shippingFee": 5,
+      "addressId": "026b",
+      "items": [
+        {
+          "bookId": "7",
+          "quantity": 1
+        },
+        {
+          "bookId": "6",
+          "quantity": 1
+        },
+        {
+          "bookId": "5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "78ea",
+      "userId": "1",
+      "orderDate": "2025-11-11",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "4",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "4288",
+      "userId": "1",
+      "orderDate": "2025-11-11",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "3",
+          "quantity": 1
+        },
+        {
+          "bookId": "2",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "6489",
+      "userId": "1",
+      "orderDate": "2025-11-11",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "9084",
+      "userId": "1",
+      "orderDate": "2025-11-11",
+      "status": "Shipped",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "4",
+          "quantity": 1
+        },
+        {
+          "bookId": "b6c8",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "10fe",
+      "userId": "1",
+      "orderDate": "2025-11-11",
+      "status": "Delivered",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "1",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2fe1",
+      "userId": "1",
+      "orderDate": "2025-11-11",
+      "status": "Cancelled",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "2",
+          "quantity": 1
+        },
+        {
+          "bookId": "3",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "580f",
+      "userId": "1",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 0,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "4",
+          "quantity": 10
+        },
+        {
+          "bookId": "3d0b",
+          "quantity": 2
+        },
+        {
+          "bookId": "1",
+          "quantity": 1
+        },
+        {
+          "bookId": "b6c8",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "997c",
+      "userId": "1",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "3d0b",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "361d",
+      "userId": "1",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "1",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "9d4f",
+      "userId": "1",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "1",
+          "quantity": 1
+        },
+        {
+          "bookId": "2",
+          "quantity": 1
+        },
+        {
+          "bookId": "3d0b",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "62de",
+      "userId": "1",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "2",
+          "quantity": 1
+        },
+        {
+          "bookId": "3",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "edc8",
+      "userId": "1",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "1762",
+      "items": [
+        {
+          "bookId": "3d0b",
+          "quantity": 1
+        },
+        {
+          "bookId": "b6c8",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "53a1",
+      "userId": "2",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "026b",
+      "items": [
+        {
+          "bookId": "2",
+          "quantity": 1
+        },
+        {
+          "bookId": "3",
+          "quantity": 1
+        },
+        {
+          "bookId": "3d0b",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "6dbe",
+      "userId": "2",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "026b",
+      "items": [
+        {
+          "bookId": "10",
+          "quantity": 1
+        },
+        {
+          "bookId": "11",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "8d2f",
+      "userId": "2",
+      "orderDate": "2025-11-12",
+      "status": "Pending",
+      "shippingFee": 5,
+      "addressId": "026b",
+      "items": [
+        {
+          "bookId": "1",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "AddressUser": [
+    {
+      "userId": "2",
+      "name": "Hoang Cuong",
+      "phone": "0123456789",
+      "address": "123 Le Loi, District 1, HN, Vietnam",
+      "id": "026b"
+    },
+    {
+      "userId": "1",
+      "name": "Admin User",
+      "phone": "0987654321",
+      "address": "456 Tran Hung Dao, District 5, HN, Vietnam",
+      "id": "1762"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "MASHLE - Ep 3 - Mash Burnedead Và Pháp Sư Mặt Nạ",
+      "author": "Hajime Komoto",
+      "price": 3.4,
+      "categoryId": "2",
+      "stock": 29,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/m/a/mashle_bia_tap_03_2.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Diary Of A Wimpy Kid 13",
+      "author": "Jeff Kinney",
+      "price": 6.3,
+      "categoryId": "1",
+      "stock": 38,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/i/m/image_195509_1_41962.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Thao Túng Tâm Lý",
+      "author": "Shannon Thomas, LCSW",
+      "price": 11.99,
+      "categoryId": "1",
+      "stock": 13,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/8/9/8936066692298.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Tam Quốc Diễn Nghĩa (Trọn Bộ 3 Tập)",
+      "author": "La Quán Trung",
+      "price": 15.99,
+      "categoryId": "2",
+      "stock": 10,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/3/3/333_4.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Không gia đình",
+      "author": "Frank Herbert",
+      "price": 14.5,
+      "categoryId": "3",
+      "stock": 18,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/8/6/865131eccf7d5aaea74094b221caf805.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Chưa kịp lớn đã phải trưởng thành",
+      "author": "Orson Scott Card",
+      "price": 13.25,
+      "categoryId": "2",
+      "stock": 20,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/9/7/9786043315516.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The journey of being your self",
+      "author": "Agatha Christie",
+      "price": 9.99,
+      "categoryId": "5",
+      "stock": 22,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/t/h/the-journey-of-being-yourself-_1_.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Thanh gươm diệt quỷ hồi ký",
+      "author": "Stieg Larsson",
+      "price": 12.75,
+      "categoryId": "5",
+      "stock": 14,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Thơ - Ấn Bản Đặc Biệt 20 Năm Thành Lập Nhã Nam - Bìa Cứng",
+      "author": "Gillian Flynn",
+      "price": 10.99,
+      "categoryId": "3",
+      "stock": 12,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935235246218.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Anh Hùng Còn Chi - Bìa Cứng",
+      "author": "Nguyễn Huy Thiệp",
+      "price": 22.5,
+      "categoryId": "4",
+      "stock": 29,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935235239746.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Sang Chấn Tâm Lý - Hiểu Để Chữa Lành",
+      "author": "Bessel Van Der Kolk, M.D",
+      "price": 32,
+      "categoryId": "4",
+      "stock": 9,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/i/m/image_195509_1_27676.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Doraemon - Movie Story Màu - Nobita Và Những Hiệp Sĩ Không Gian",
+      "author": "Fujiko F Fujio",
+      "price": 17.25,
+      "categoryId": "5",
+      "stock": 8,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/d/o/doraemon-movie-story-mau_nobita-va-nhung-hiep-si-khong-gian_bia.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Thiền Sư Và Em Bé 5 Tuổi",
+      "author": "J.K. Rowling",
+      "price": 8.99,
+      "categoryId": "4",
+      "stock": 35,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/i/m/image_196418.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Thị Trấn Hoa Mười Giờ - Tập 3",
+      "author": "Phan",
+      "price": 7.5,
+      "categoryId": "5",
+      "stock": 28,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/z/3/z3825076506886_c56b80d01335e3353dd3c6c9723b73d1.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Napoleon Hill Sức Mạnh Làm Giàu Kỳ Diệu - Nghĩ Giàu & Làm Giàu",
+      "author": "Robert Kiyosaki",
+      "price": 13.99,
+      "categoryId": "6",
+      "stock": 25,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/i/m/image_195509_1_42421.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Khoa Học Về Chạy Bộ - Phân Tích Kỹ Thuật, Phòng Ngừa Chấn Thương, Đổi Mới Cách Tập Luyện - Bìa Cứng",
+      "author": "Eric Ries",
+      "price": 14.25,
+      "categoryId": "4",
+      "stock": 20,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935235237827.jpg"
+    },
+    {
+      "id": "b6c8",
+      "title": "Think And Grow Rich - Nghĩ Giàu Và Làm Giàu Các Bước Thực Hành (Tái Bản 2022)",
+      "author": "Napoleon Hill",
+      "price": 15,
+      "categoryId": "6",
+      "stock": 9,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/8/9/8935236426282.jpg"
+    },
+    {
+      "id": "3d0b",
+      "title": "Tuổi Thơ Dữ Dội - Tập 1 (Tái Bản 2019)",
+      "author": "Phùng Quán",
+      "price": 10,
+      "categoryId": "5",
+      "stock": 2,
+      "image": "https://cdn1.fahasa.com/media/catalog/product/i/m/image_187162.jpg"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.pagination .page-item .page-link {
+  color: #E53935;       /* màu chữ của số trang */
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #E53935;  
+  border-color: #E53935;  
+  color: white;      
+}

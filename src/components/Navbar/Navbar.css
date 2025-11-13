@@ -1,0 +1,135 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #E53935;
+}
+
+/* Logo */
+.book-icon {
+  width: 27px;
+  height: 21px;
+  color: #E53935;
+}
+
+.logo-text {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+/* Custom Navigation Links */
+.custom-nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.custom-nav-link:hover {
+  color: #E53935 !important;
+}
+
+.custom-nav-link.active {
+  color: #E53935 !important;
+}
+
+.custom-nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 1rem;
+  right: 1rem;
+  height: 2px;
+  background: linear-gradient(to right, #E53935 0%, #C62828 100%);
+}
+
+/* Search Box */
+.search-box {
+  background-color: #f8f9fa;
+  border-radius: 25px;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+.search-box:focus-within {
+  border-color: #E53935;
+}
+
+.search-input {
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0.25rem !important;
+  width: 200px;
+  font-size: 0.95rem;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-btn {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  transition: transform 0.2s ease;
+}
+
+.search-btn:hover {
+  transform: scale(1.1);
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.search-icon path {
+  stroke: #666;
+  transition: stroke 0.3s ease;
+}
+
+.search-btn:hover .search-icon path {
+  stroke: #E53935;
+}
+
+/* Login Button */
+.login-btn {
+  background: linear-gradient(to right, #E53935 0%, #C62828 100%) !important;
+  color: white !important;
+  border-radius: 25px !important;
+  padding: 0.6rem 1.8rem !important;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(229, 57, 53, 0.3);
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #C62828 0%, #B71C1C 100%) !important;
+  box-shadow: 0 4px 8px rgba(229, 57, 53, 0.4);
+  transform: translateY(-1px);
+}
+
+.login-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .search-box {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 100%;
+  }
+  
+  .login-btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

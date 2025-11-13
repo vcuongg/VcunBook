@@ -1,0 +1,24 @@
+.footer{
+    background-color: #1F2937;
+}
+.a text{
+    color: #9CA3AF;
+}
+
+.link-color {
+  color: #9CA3AF;
+  transition: color 0.3s;
+}
+
+.link-color:hover {
+  color: #E5E7EB; /* sáng hơn khi hover, ví dụ */
+}
+
+/* Horizontal rule styling */
+.footer hr {
+  background-color: #9CA3AF;
+  color: #9CA3AF;
+  border-color: #9CA3AF;
+  opacity: 1;
+  height: 1px;
+}
